@@ -19,6 +19,7 @@ File-based process lock — distribution `entirius-py-lockfile`, import `lockfil
 - Git flow: `master` (production) + `develop` (integration); changes land via PR; semver tag on `master`.
 - Never rename the import package `lockfile` — it is a public API contract.
 - Default: do not commit — git is the user's call.
+- No AI attribution in commits or PR descriptions.
 
 ## Architecture
 
